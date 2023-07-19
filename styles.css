@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FBFBF8;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #A7BF8D;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form,
+.myLibrary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+
+.library {
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+li span {
+    font-weight: bold;
+}
+
+.library {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    max-width: 200px;
+    background-color: #C1C2DC;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.card span {
+    font-weight: bold;
+}
+
+.read-box {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.btn,
+.btn-card {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: inherit;
+    line-height: 0.5;
+    border-radius: 5px;
+    padding: 0.5em 1.5em;
+    outline: 2px solid #2694e8;
+    border: 2px solid #2694e8;
+    outline-offset: -2px;
+    transition: outline-offset 100ms ease;
+}
+
+.btn:hover,
+.btn:focus,
+.btn-card:hover,
+.btn-card:focus {
+    outline-offset: 2px;
+    outline: 3px solid #2694e8;
+    border: 2px solid #2694e8;
+}

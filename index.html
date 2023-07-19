@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Cal's Library</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Cal's Libary</title>
 </head>
 
 <body>
-    <h1>Cal's Library</h1>
+    <div class="container">
+        <h1>Cal's Library</h1>
+        <div class="form">
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="author" placeholder="Author">
+            <input type="number" id="pages" placeholder="Number of Pages">
+            <div class="read-box"><label for="read">Read:</label>
+                <input type="checkbox" id="read">
+            </div>
+            <button class="btn" onclick="addBook()">Add Book</button>
+        </div>
+    </div>
+    <div class="library" id="bookList"></div>
 
     <script src="app.js"></script>
 </body>
